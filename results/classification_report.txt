@@ -1,0 +1,24 @@
+Best model by macro-F1: RBF SVM
+
+              precision    recall  f1-score   support
+
+           0      0.400     0.476     0.435        21
+           1      0.231     0.231     0.231        13
+           2      0.188     0.214     0.200        14
+           3      0.308     0.211     0.250        19
+           4      0.609     0.609     0.609        23
+
+    accuracy                          0.378        90
+   macro avg      0.347     0.348     0.345        90
+weighted avg      0.376     0.378     0.374        90
+
+Price-bin edges learned from training data:
+[-inf, 26.42, 35.839999999999996, 53.959999999999994, 86.96666666600002, inf]
+
+Class counts (full dataset):
+sale_price
+0    75
+1    67
+2    67
+3    73
+4    77
